@@ -97,7 +97,7 @@ const Quiz = () => {
       </div>
       <hr />
       <div className="flex-btn">
-        <button className="btn prev" onClick={prev}>Prev</button>
+      <button className="btn quit" onClick={quit}>Quit</button>
         <button className="btn next" onClick={next}>next</button>
       </div>
       </>}
